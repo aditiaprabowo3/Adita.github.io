@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.navbar ul li a{
+    color: #000 !important;
+    font-weight: 500;
+}
+body {
+    background-color: rgb(245, 245, 245) !important;
+}
+.navbar.fixed {
+    background-color: #fff !important;
+}
+.navbar {
+    padding: 15px 0 !important;
+}
+.card-feature:hover {
+    background-color: #00A0C1 !important;
+    color: #fff !important;
+}
+.card-feature:hover i {
+    color: #fff !important;
+}
+footer ul li {
+    padding-bottom: 17px;
+    margin-left: -30px;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+/* braeakpoint */
+/* pc */
+@media (min-width: 300px) {
+    .section-banner .text-content h1 {
+        font-size: 37px !important;
+        font-weight: 900;
+    }
+    .section-banner .text-content p{
+        font-size: 16px;
+        padding: 20px 0;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content .btn {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .btn {
+        margin-top: 14px;
+    }
+}
+/* pc */
+@media (min-width: 400px) {
+    .section-banner .text-content h1 {
+        font-size: 50px !important;
+        font-weight: 900;
+    }
+    .section-banner .text-content p{
+        font-size: 18px;
+        padding: 20px 0;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    .section-banner .text-content .btn {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .btn {
+        margin-top: 14px;
+    }
+}
+/* pc */
+@media (min-width: 549px) {
+    .section-banner .text-content h1 {
+        font-size: 50px !important;
+        font-weight: 900;
+    }
+    .section-banner .text-content p{
+        font-size: 18px;
+        padding: 20px 0;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    .section-banner .text-content .btn {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner {
+        background-position: center;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .btn {
+        margin-top: 14px;
+    }
+}
+/* desktop */
+@media (min-width: 997px) {
+    .section-banner .text-content h1 {
+        font-size: 60px !important;
+        font-weight: 900;
+    }
+    .section-banner .text-content p{
+        font-size: 18px;
+        padding: 20px 0;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    .section-banner .text-content .btn {
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .section-banner {
+        background-position: center;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .navbar ul li {
+        padding: 0 25px;
+    }
+    .navbar .btn {
+        margin-top: 0;
+    }
+}
+/* pc */
+@media (min-width: 1300px) {
+    .section-banner .text-content h1 {
+        font-size: 60px !important;
+        font-weight: 900;
+    }
+    .section-banner .text-content p{
+        font-size: 18px;
+        padding: 20px 0;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    .section-banner .text-content .btn {
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .section-banner {
+        background-position: center;
+    }
+    .section-banner .text-content  {
+        text-align: left;
+    }
+    .navbar ul li {
+        padding: 0 25px;
+    }
+    .navbar .btn {
+        margin-top: 0;
+    }
+}
